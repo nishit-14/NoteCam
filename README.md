@@ -37,6 +37,38 @@ I wanted a faster way to move class material from a lecture room into structured
   - neon cyan / magenta accents
   - portfolio-focused visual pass for the iPhone app
 
+## Screenshots
+
+### App icon
+
+Custom icon styled to match the app's dark cyberpunk-inspired UI.
+
+![NoteCam app icon](assets/notecam_icon.png)
+
+### Docs
+
+Save docs manually or import recent Google Docs directly into the app.
+
+![NoteCam Docs screen](assets/docs-page.jpg)
+
+### Camera
+
+Capture a classroom image, preview it, and send it into the OCR flow.
+
+![NoteCam Camera screen](assets/camera-page.jpg)
+
+### OCR
+
+Review extracted text before appending it into the selected Google Doc.
+
+![NoteCam OCR screen](assets/ocr-page.jpg)
+
+### History
+
+Track OCR uploads, reopen extracted text, and manage local image files.
+
+![NoteCam History screen](assets/history-page.jpg)
+
 ## Stack
 
 - Expo
@@ -149,8 +181,6 @@ If you want in-app Google Docs import:
 - Before publishing your own fork, use your own Apple signing config and Google Cloud / Apps Script setup.
 - Do not commit real OAuth tokens, deployment URLs, or personal production credentials.
 
-## Screenshots
-
 ## OCR status
 
 The OCR UI flow and backend integration layer are implemented, but full OCR is intentionally guarded until the backend is configured.
@@ -163,7 +193,7 @@ The OCR UI flow and backend integration layer are implemented, but full OCR is i
 
 1. In Apps Script, enable the Advanced Drive service.
 2. In the linked Google Cloud project, enable the Drive API.
-3. In [backend/Code.gs](/Users/nishoberoi/NoteCam/backend/Code.gs), set `ENABLE_DRIVE_OCR = true`.
+3. In `backend/Code.gs`, set `ENABLE_DRIVE_OCR = true`.
 4. Redeploy the web app.
 
 After that, the existing `Extract text` button path will start calling the OCR backend instead of returning the setup message.
