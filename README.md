@@ -149,10 +149,6 @@ If you want in-app Google Docs import:
 - Before publishing your own fork, use your own Apple signing config and Google Cloud / Apps Script setup.
 - Do not commit real OAuth tokens, deployment URLs, or personal production credentials.
 
-## Screenshots
-
-Add your iPhone screenshots or a short demo GIF here before publishing to GitHub. That will make the repo much stronger as a showcase project.
-
 ## OCR status
 
 The OCR UI flow and backend integration layer are implemented, but full OCR is intentionally guarded until the backend is configured.
