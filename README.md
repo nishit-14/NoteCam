@@ -43,31 +43,31 @@ I wanted a faster way to move class material from a lecture room into structured
 
 Custom icon styled to match the app's dark cyberpunk-inspired UI.
 
-![NoteCam app icon](assets/notecam_icon.png)
+<img src="assets/notecam_icon.png" alt="NoteCam app icon" width="180" />
 
 ### Docs
 
 Save docs manually or import recent Google Docs directly into the app.
 
-![NoteCam Docs screen](assets/docs-page.jpg)
+<img src="assets/docs-page.jpg" alt="NoteCam Docs screen" width="280" />
 
 ### Camera
 
 Capture a classroom image, preview it, and send it into the OCR flow.
 
-![NoteCam Camera screen](assets/camera-page.jpg)
+<img src="assets/camera-page.jpg" alt="NoteCam Camera screen" width="280" />
 
 ### OCR
 
 Review extracted text before appending it into the selected Google Doc.
 
-![NoteCam OCR screen](assets/ocr-page.jpg)
+<img src="assets/ocr-page.jpg" alt="NoteCam OCR screen" width="280" />
 
 ### History
 
 Track OCR uploads, reopen extracted text, and manage local image files.
 
-![NoteCam History screen](assets/history-page.jpg)
+<img src="assets/history-page.jpg" alt="NoteCam History screen" width="280" />
 
 ## Stack
 
