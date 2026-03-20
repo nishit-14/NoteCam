@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "NoteCam",
+    "slug": "notecam",
+    "scheme": "notecam",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/notecam_icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mustangno7.notecam",
+      "infoPlist": {
+        "NSCameraUsageDescription": "NoteCam uses the camera to capture lecture images for your Google Docs.",
+        "NSLocalNetworkUsageDescription": "NoteCam uses your local network to connect to the Expo development server running on your Mac."
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA"
+      ]
+    }
+  }
+}
